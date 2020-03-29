@@ -31,7 +31,7 @@ struct AddView: View {
                 TextField("Amount", text: $amount)
                     .keyboardType(.numberPad)
             }
-        .navigationBarTitle("Add new expense")
+            .navigationBarTitle("Add new expense")
             // Button that, when tapped, creates an ExpenseItem out of our properties and adds it to the expenses items.
             .navigationBarItems(trailing:
                 Button("Save") {
