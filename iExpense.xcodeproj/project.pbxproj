@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EC3CB4CF242C241300620DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3CB4CE242C241300620DA4 /* AppDelegate.swift */; };
 		EC3CB4D1242C241300620DA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3CB4D0242C241300620DA4 /* SceneDelegate.swift */; };
-		EC3CB4D4242C241300620DA4 /* iExpense.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC3CB4D2242C241300620DA4 /* iExpense.xcdatamodeld */; };
 		EC3CB4D6242C241300620DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3CB4D5242C241300620DA4 /* ContentView.swift */; };
 		EC3CB4D8242C241800620DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3CB4D7242C241800620DA4 /* Assets.xcassets */; };
 		EC3CB4DB242C241800620DA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3CB4DA242C241800620DA4 /* Preview Assets.xcassets */; };
@@ -21,7 +20,6 @@
 		EC3CB4CB242C241300620DA4 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3CB4CE242C241300620DA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC3CB4D0242C241300620DA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC3CB4D3242C241300620DA4 /* iExpense.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iExpense.xcdatamodel; sourceTree = "<group>"; };
 		EC3CB4D5242C241300620DA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC3CB4D7242C241800620DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC3CB4DA242C241800620DA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 				EC3CB4D7242C241800620DA4 /* Assets.xcassets */,
 				EC3CB4DC242C241800620DA4 /* LaunchScreen.storyboard */,
 				EC3CB4DF242C241800620DA4 /* Info.plist */,
-				EC3CB4D2242C241300620DA4 /* iExpense.xcdatamodeld */,
 				EC3CB4D9242C241800620DA4 /* Preview Content */,
 			);
 			path = iExpense;
@@ -152,7 +149,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3CB4D4242C241300620DA4 /* iExpense.xcdatamodeld in Sources */,
 				EC3CB4CF242C241300620DA4 /* AppDelegate.swift in Sources */,
 				EC93348E242FF50A00F6D6BC /* AddView.swift in Sources */,
 				EC3CB4D6242C241300620DA4 /* ContentView.swift in Sources */,
@@ -348,19 +344,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		EC3CB4D2242C241300620DA4 /* iExpense.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				EC3CB4D3242C241300620DA4 /* iExpense.xcdatamodel */,
-			);
-			currentVersion = EC3CB4D3242C241300620DA4 /* iExpense.xcdatamodel */;
-			path = iExpense.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = EC3CB4C3242C241300620DA4 /* Project object */;
 }
